@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0;}
+ 
+body{
+    font-family: monospace;
+    font-size: 16px;
+}
+ 
+nav.header{
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.menu{
+    width: 100%;
+    list-style:none;
+    display: flex;
+}
+
+ul.menu li{
+    display: inline-block;
+    padding: 10px 15px;
+    flex-grow: 1;
+    
+    
+    background-color:#EDEDED;
+    border-bottom:3px solid #EDEDED;
+}
+
+ul.menu li a{
+    padding: 15px 10px;
+    color: #333;
+    text-decoration: none;
+}
+ 
+ul.menu li:hover{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid tomato;
+}
